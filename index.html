@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+  <label for="first-name">Nama Depan:</label>
+  <input type="text" id="first-name" name="first-name"><br>
+
+  <label for="last-name">Nama Belakang:</label>
+  <input type="text" id="last-name" name="last-name"><br>
+
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="male">Laki-laki</option>
+    <option value="female">Perempuan</option>
+  </select><br>
+
+  <label for="address">Alamat:</label>
+  <textarea id="address" name="address"></textarea><br>
+
+  <label for="storage">Pilihan Storage:</label>
+  <select id="storage" name="storage">
+    <option value="session">Session</option>
+    <option value="local">Local</option>
+    <option value="cookie">Cookie</option>
+  </select><br>
+
+  <button type="button" id="add-data">Tambah Data</button>
+  <button type="button" id="show-data">Tampilkan Data</button>
+</form>
+
+<div id="data-container"></div>
+<script src="script.js"></script>
+</body>
+</html>
